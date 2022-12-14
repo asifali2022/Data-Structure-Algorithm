@@ -4,20 +4,30 @@ package mathematics;
 
 class checkPallindrome{
 	
-	public int checkpallindromeNumber(int a) 
-	{
-		while(a>0)
+	public boolean checkpallindromeNumber(int a) 
+	{  
+		int remainder=0;
+		int reversed=0;
+		while(remainder>0)
 		{
-			
-		
+		     remainder=a%10;
+		    reversed=reversed*10+remainder;
+		    a=a/10;
 		}
-		return a;	
+		if(reversed==remainder)
+		return true;
+		else
+			return false;
+			
 	}
 }
 public class pallindromeNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		checkPallindrome ch=new checkPallindrome();
+		boolean a=ch.checkpallindromeNumber(444);
+		System.out.println(a);
 
 	}
 
