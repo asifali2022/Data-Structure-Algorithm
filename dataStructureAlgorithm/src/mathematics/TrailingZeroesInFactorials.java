@@ -23,7 +23,7 @@ public class TrailingZeroesInFactorials {
 
 	public static void main(String[] args) {
 		
-		trailing v=new trailing();
+		 trailing v=new trailing();
 		 System.out.println(v.zeroCounter(12));
 	}
 
