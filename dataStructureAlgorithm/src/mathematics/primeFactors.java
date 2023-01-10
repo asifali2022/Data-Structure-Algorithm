@@ -1,5 +1,27 @@
 package mathematics;
 
+class primfactors{
+	void primefactors(int a)
+	{
+		if (a<=1)
+		{
+			return;
+		}
+		for(int i=2;i*i<a;i++)
+		{
+			while(a%i==0)
+			{
+				System.out.println(i);
+				a=a/i;
+			}
+		}
+		if(a>1)
+		{
+			System.out.println(a);
+		}
+	}
+}
+
 class pFactor{
 	
 	void primeFactor(int k)
@@ -43,6 +65,10 @@ public class primeFactors {
 
 		pFactor l=new pFactor();
 		l.primeFactor(12);
+		System.out.println("**************************");
+		primfactors n=new primfactors();
+		n.primefactors(84);
+		
 	}
 
 }
