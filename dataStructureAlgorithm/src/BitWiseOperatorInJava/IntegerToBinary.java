@@ -7,7 +7,7 @@ class IntegerToBinary1{
 	static public  void Binary(int a)
 	{
 		
-		 final int dub=a;
+		
 		 int [] q=new int[32];
 		 int i=0;
 		 int count=0;
