@@ -46,7 +46,14 @@ public class CountSetBit {
 	 
 	 // 1st Interation:: a=40    ==> 101000
 	 //                  a-1=39  ==> 100111   3 trailing 0's becomes 1 and  only last set bit becomes 0
-	 
+	 //101000   ==>40
+	 //&&&&&&
+	 //100111   ==>39(a-1) making the last set bit 0
+     //100000   ==>32
+	 // 2nd Iteration:100000  ==>32
+	 //               &&&&&&
+	 //               000000  ==>0(a-1) making the last set bit 0
+	 //               000000  ==> loop	 static public  int setCounter2 (int a)
 	 static public  int setCounter2 (int a)
 	 {
 		 int count =0;

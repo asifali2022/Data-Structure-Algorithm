@@ -77,7 +77,7 @@ static public void set2(int n,int k)
 // to compute 2^(k-1)
 static public void set3(int n,int k)
 {
-	int x=1<<(k-1);  // to compute 2^(k-1)
+	int x=1<<(k-1);  // to compute 1*(2^(k-1))
 	if((n&x)!=0)
 	{
 		System.out.println("Bit Is Set");
