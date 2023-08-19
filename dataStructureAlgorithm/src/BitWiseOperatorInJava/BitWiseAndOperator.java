@@ -4,7 +4,7 @@ public class BitWiseAndOperator {
 
 	public static void main(String[] args) {
 		int x=3;
-		int y=1;
+		int y=15;
 		System.out.println(x&y);
 	}
 

@@ -5,8 +5,11 @@ public class BitWiseSignedRightShiftOperator {
 	public static void main(String[] args) {
 	
 		int x=33;
+		int y=3;
+		int z=4;
 		System.out.println(x>>1);
 		System.out.println(x>>4);
+		System.out.println(z>>y);
 
 	}
 

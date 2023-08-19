@@ -4,7 +4,7 @@ public class BitWiseOrOperator {
 
 	public static void main(String[] args) {
 		int x=3;
-		int y=6;
+		int y=7;
 		System.out.println(x|y);
 
 	}

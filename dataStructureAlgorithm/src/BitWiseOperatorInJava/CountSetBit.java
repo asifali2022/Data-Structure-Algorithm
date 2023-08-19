@@ -53,7 +53,7 @@ public class CountSetBit {
 	 // 2nd Iteration:100000  ==>32
 	 //               &&&&&&
 	 //               000000  ==>0(a-1) making the last set bit 0
-	 //               000000  ==> loop	 static public  int setCounter2 (int a)
+	 //               000000  ==> 
 	 static public  int setCounter2 (int a)
 	 {
 		 int count =0;

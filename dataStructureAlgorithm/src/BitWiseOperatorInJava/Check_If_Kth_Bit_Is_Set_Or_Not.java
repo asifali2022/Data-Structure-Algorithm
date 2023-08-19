@@ -12,9 +12,9 @@ public class Check_If_Kth_Bit_Is_Set_Or_Not {
 		System.out.println("Enter The Kth Index");
 		int knum = sc.nextInt();
 		sc.close();
-		set(num,knum);
-		set2(num,knum);
-		set3(num,knum);
+//		set(num,knum);
+//		set2(num,knum);
+//		set3(num,knum);
 		set4(num,knum);
 }
 	
@@ -22,9 +22,10 @@ public class Check_If_Kth_Bit_Is_Set_Or_Not {
 	
 //Time Complexity::theta(k)
 //1st::naive solution
-// doing Bitwise with a NUMBER whose only kth bit ist set
+//n=5;k=3;
+// doing Bitwise AND with a NUMBER whose only kth bit ist set
 // NUMBER whose only kth bit ist set==formula 2^(k-1)
-//2^(k-1) ===> 2^(3-1) ====> 2^4 ===> 4
+//2^(k-1) ===> 2^(3-1) ====> 2^2 ===> 4
 // 4's only set index 3rd  and we need to compare it with 5's 3rd index
 //(101 )& (100)
 //	1  &  1   = 1

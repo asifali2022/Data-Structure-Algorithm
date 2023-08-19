@@ -67,7 +67,7 @@ public class primeFactors {
 		l.primeFactor(12);
 		System.out.println("**************************");
 		primfactors n=new primfactors();
-		n.primefactors(84);
+		n.primefactors(450);
 		
 	}
 
