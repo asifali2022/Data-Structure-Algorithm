@@ -52,7 +52,7 @@ public class LcmOf2Number {
 		
 		System.out.println("***********");
 		//efficient solution
-		int n=euclid.lcm(3, 7);
+		int n=euclid.lcm(10,15);
 		System.out.println(n);
 	}
 
