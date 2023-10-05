@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	arr[0]=66;
 	arr[1]=456;
 	arr[2]=851;
-	arr[3]=951;
+	arr[3]=952;
 	arr[4]=7;
 	System.out.println(index(arr,951));
 }
